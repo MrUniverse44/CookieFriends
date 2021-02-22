@@ -1,0 +1,71 @@
+# _____ _          _   ______    _                _
+# |  __ (_)        | | |  ____|  (_)              | |
+# | |__) |__  _____| | | |__ _ __ _  ___ _ __   __| |___
+# |  ___/ \ \/ / _ \ | |  __| '__| |/ _ \ '_ \ / _` / __|
+# | |   | |>  <  __/ | | |  | |  | |  __/ | | | (_| \__ \
+# |_|   |_/_/\_\___|_| |_|  |_|  |_|\___|_| |_|\__,_|___/
+#
+
+messages:
+  help:
+    top: '&7----------------- &aPixel Friends &7-----------------'
+    add-msg: '&e/<cmd> add (player) &8- &bAdd player to your friend-list'
+    add-hover: '&b/<cmd> add (player)'
+    remove-msg: '&e/<cmd> remove (player) &8- &bRemove a player from your friend-list'
+    remove-hover: '&b/<cmd> remove (player)'
+    accept-msg: '&e/<cmd> accept (player) &8- &bAccept a friend request'
+    accept-hover: '&b/<cmd> accept (player)'
+    deny-msg: '&e/<cmd> deny (player) &8- &bDeny a friend request'
+    deny-hover: '&b/<cmd> deny (player)'
+    go-msg: '&e/<cmd> Go (player) &8- &bGo to the server of a friend'
+    go-hover: '&b/<cmd> go (player)'
+    list-msg: '&e/<cmd> list &8- &bShow your friend-list'
+    list-hover: '&b/<cmd> list'
+    request-msg: '&e/<cmd> requests &8- &bCheck your friend requests'
+    request-hover: '&b/<cmd> requests'
+    tell-msg: '&e/<cmd> msg (player) &8- &bTalk with a friend'
+    tell-hover: '&b/<cmd> msg (player) (msg)'
+    bottom: '&7----------------------------------------------------'
+  usage:
+    add: '&eUsage: &b/<cmd> add (player)'
+    remove: '&eUsage: &b/<cmd> remove (player)'
+    accept: '&eUsage: &b/<cmd> accept (player)'
+    deny: '&eUsage: &b/<cmd> deny (player)'
+    msg: '&eUsage: &b/<cmd> msg (player) (msg)'
+    go: '&eUsage: &b/<cmd> go (player)'
+    hover: '&eClick to paste in the chat.'
+  buttons:
+    removefriend: '&c&l[X]'
+    msg: '&e&l[MSG]'
+    accept: '&a&l[ACCEPT]'
+    deny-two: '&c&l[DENY]'
+  status:
+    online: '&aOnline (%server%)'
+    offline: '&cOffline'
+  list:
+    top: '&7--------------- &aFriends list (%friends%) %page%/%max% &7---------------'
+    player: '%remove% &7%player% %status%'
+    bottom: '&7--------------------------------------------------'
+  events:
+    switch: '&b%player%&e changed to the server &b%server%&e.'
+    leave: '&b%player%&e quit the network.'
+    join: '&b%player%&e joined the network.'
+  general:
+    add: '&aYou have successfully send a request to &e%player%'
+    remove: '&cYou have successfully removed friend &e%player%'
+    notrequest: '&cThis player has not sent you a friend request'
+    notfriend: '&cYou aren''t friend of &f%player%'
+    frienddeny: '&aFriend request of &e%player%&a successfully denied'
+    friendrequest: '&aYou have a friend request of &e%player%'
+    jumped: '&aJumped to your friend &e%player%'
+    accept: '&aNow you are friend of &e%player%'
+    yourself: '&cHey you can''t request yourself'
+    requesting: '&cYou are already requesting this Player to be your friend!'
+    already: '&cThis player is already your friend!'
+    joinrequests: '&aYou have %requests% friend requests.'
+    noperms: '&cYou don''t have permissions.'
+  msg:
+    to: '&aTo &b%player%&a: &f%message%'
+    from: '&aFrom &b%player%&a: &f%message%'
+  admin:
+    reload: '&aPlugin reloaded!'

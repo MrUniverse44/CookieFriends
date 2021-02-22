@@ -1,0 +1,53 @@
+# _____ _          _   ______    _                _
+# |  __ (_)        | | |  ____|  (_)              | |
+# | |__) |__  _____| | | |__ _ __ _  ___ _ __   __| |___
+# |  ___/ \ \/ / _ \ | |  __| '__| |/ _ \ '_ \ / _` / __|
+# | |   | |>  <  __/ | | |  | |  | |  __/ | | | (_| \__ \
+# |_|   |_/_/\_\___|_| |_|  |_|  |_|\___|_| |_|\__,_|___/
+#
+
+mysql:
+  jdbc-url: jdbc:mysql://[host]:[port]/[db]?autoReconnect=true
+  host: localhost
+  port: 3306
+  username: root
+  password: password
+  database: rRFTB
+  tables:
+    players: playerData
+    friends: friendsData
+    requests: requestsData
+    settings: settingsData
+friends-menu:
+  inventoryName: '&8Friends Menu'
+  inventoryRows: 6
+  inventorySounds:
+    - ORB_PICKUP
+  friends:
+    name: '%name%'
+    lore:
+      - ' '
+      - '&7Online: %status%'
+      - '<isOnline><hookWithCookieBungee>&7Server: &a%server%'
+      - '<isOnline><noHook><isNotBlacklistWorld>&7World: &a%world%'
+      - '<isOffline>&7Last join: &a%join%'
+      - '<hasRank>&7Rank: &a%rank%'
+      - ' '
+      - '&erigox.club'
+settings:
+  modify-msg-command: true
+  modify-tell-command: true
+  plugin-mode: HOOKED
+  showExtraLogs: false
+  hooks:
+    PlaceholderAPI: true
+  dateFormat:
+    today: 'Today at <todayFormat>'
+    todayFormat: 'HH:mm'
+    other-day: 'dd/MM/yy'
+  blacklist-world-var-replace: 'Spawn'
+  blacklist-worlds:
+    - 'AuthSpawn'
+  worlds-replacers:
+    - 'world_nether:Nether World'
+    - 'world_the_end:End World'

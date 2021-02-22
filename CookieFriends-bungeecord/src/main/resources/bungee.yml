@@ -1,0 +1,4 @@
+name: CookieFriends
+version: ${project.version}
+main: dev.mruniverse.cookiefriends.BungeeFriends
+description: Simple Friends Plugin
